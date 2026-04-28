@@ -1,10 +1,19 @@
+html{
+    scroll-behavior: smooth;
+}
+
 body{
     background-color: rgb(30, 34, 37);
     color: white;
     font-family: 'Segoe UI';
-    max-width: 1200px;
+
     margin: 0 auto;
-    padding: 15px;
+}
+
+/* MINHA SEGUNDA SECTION SE CHAMA SESSAO-SOBRE*/
+/* COLOQUEM O NOME DA SEGUNDA SECTION DE VOCÊS*/
+#sessao-sobre{ 
+    background-color: rgb(40, 46, 51);;
 }
 
 a{
@@ -17,10 +26,22 @@ a:hover{
 }
 
 header{
+    margin: 0 auto;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    background-color: rgb(30, 34, 37);
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.container{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    align-items: center;
+    align-items: center; 
+    max-width: 1200px;   
+    margin: 0 auto;
 }
 
 h2{
@@ -77,4 +98,12 @@ input{
 
 #btn-enviar:hover{
     cursor: pointer;
+}
+
+footer{
+    background-color: rgb(40, 46, 51);
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
